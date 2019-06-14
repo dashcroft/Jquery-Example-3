@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dashcroft: Example 3 - jQuery UI</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script> 
+  $( function() {
+    $( "input" ).checkboxradio();
+  } );
+  </script>
+  <script> 
+      $( function() {
+        $( "#slider" ).slider();
+      } );
+  </script>
+</head>
+<body>
+<div class="widget">
+  <h1>Dashcroft: Jquery Example 3, Basic UI Widgets</h1>
+    <h2>Checkbox and radio button widgets</h2>
+ 
+  <h2>Checkbox</h2>
+  <fieldset>
+    <legend>Movie Ratings: </legend>
+    <label for="checkbox-1">1 Star</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">2 Star</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">3 Star</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">4 Star</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+    <label for="checkbox-5">5 Star</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-5">
+  </fieldset>
+ 
+  <h2>Radio Group</h2>
+  <fieldset>
+    <legend>Select a Location: </legend>
+    <label for="radio-1">Berlin</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Moscow</label>
+    <input type="radio" name="radio-1" id="radio-2">
+    <label for="radio-3">Tokyo</label>
+    <input type="radio" name="radio-1" id="radio-3">
+  </fieldset>
+</div>
+    
+<body>
+<br>
+<h2>Drag the slider</h2>
+<div id="slider"></div>
+</html>
